@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use App\NoelShackImage;
 use Mtvs\EloquentHashids\HasHashid;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
