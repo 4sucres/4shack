@@ -43,7 +43,7 @@ Route::get('/{a}/{b}/{c}', function ($a, $b, $c) {
 
     $image = $noelshackImage->image;
 
-    return view('image', compact('image'));
+    return redirect(Storage::url($image->path));
 });
 
 /**
@@ -59,5 +59,5 @@ Route::get('/{a}/{b}/{c}/{d}', function ($a, $b, $c, $d) {
 
     $image = $noelshackImage->image;
 
-    return view('image', compact('image'));
+    return redirect(Storage::url($image->path));
 });
