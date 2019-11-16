@@ -7,11 +7,14 @@
         <title>4shack.org</title>
 
         <style>
+            @import url('https://rsms.me/inter/inter.css');
+
             html, body {
                 background-color: #17191f;
                 color: #fff;
                 height: 100vh;
                 margin: 0;
+                font-family: 'Inter', sans-serif;
             }
 
             .full-height {
@@ -33,6 +36,10 @@
         <div class="flex-center full-height">
             <div class="content">
                 <img src="{{ url('/img/logo.png') }}" style="height: 100px;">
+                <p>
+                    Images hébergées : <b>{{ $totalCount }}</b><br>
+                    Espace occupé : <b>{{ $totalSize }}</b>
+                </p>
             </div>
         </div>
     </body>
