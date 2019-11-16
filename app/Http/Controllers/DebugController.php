@@ -21,8 +21,8 @@ class DebugController extends Controller
             echo "<tr>";
             echo "<td>" . $image->id . "</td>";
             echo "<td><a href=" . url('/' . $image->hashid()) . ">" . $image->hashid() . "</td>";
-            echo "<td>" . $image->path . "</td>";
-            echo "<td>" . optional($image->noelshack_image)->url . "</td>";
+            echo "<td><a href=" . url('/' . $image->path) . ">" . $image->path . "</td>";
+            echo "<td><a href=" . url('/' . optional($image->noelshack_image)->url) . ">" . optional($image->noelshack_image)->url . "</td>";
             echo "<td><a href=" . Storage::url($image->path) . ">" . Storage::url($image->path) . "</a></td>";
             echo "</tr>";
         }
