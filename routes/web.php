@@ -11,19 +11,7 @@
 |
 */
 
-use App\Models\Image;
-use App\Helpers\HumanReadable;
-use App\Models\NoelShackImage;
-
-Route::get('/', function () {
-    $totalCount = Image::count();
-    $totalSize = HumanReadable::bytesToHuman(
-        Image::selectRaw('sum(size) as sum')->first()->sum
-    );
-
-    return view('welcome', compact('totalCount', 'totalSize'));
-});
-
+Route::get('/', 'WelcomeController');
 Route::get('/{hashid}', 'ImageController@show');
 
 /**
