@@ -27,7 +27,7 @@
             Nous souhaitons recentrer NoelShack sur sa vocation initiale : le service apporté aux utilisateurs de jeuxvideo.com. Actuellement des sites entiers, très souvent étrangers, utilisent NoelShack gratuitement pour héberger leurs images en profitant de notre bande passante. Pour mettre fin à cette situation non souhaitable, <strong>nous allons supprimer d’ici au 21 novembre 2019 l’ensemble des images NoelShack qui n’ont pas été postées sur jeuxvideo.com</strong>. Cette mesure ne touchera pas les stickers ainsi que les images postés sur jeuxvideo.com.
         </blockquote>
 
-        <p class="mb-6">NoelShack étant très largement utilisé, y compris à l'extérieur de jeuxvideo.com, nous nous sommes lancés la mission de sauvegarder ce que nous pouvons des images hébergées, à commencer par les stickers de la RisiBank. Une large partie de ces images est dors et déjà disponible sur 4shack.org.</p>
+        <p class="mb-6">NoelShack étant très largement utilisé, y compris à l'extérieur de jeuxvideo.com, nous nous sommes lancés la mission de sauvegarder ce que nous pouvons des images hébergées, à commencer par les stickers de la RisiBank. Une large partie de ces images est d'ores et déjà disponible sur 4shack.org.</p>
 
         <h1 class="text-2xl mb-6">Comment utiliser 4shack.org</h1>
 
