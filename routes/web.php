@@ -27,5 +27,7 @@ Route::get('/{hashid}', 'ImageController@show');
  * Type 2 : image.noelshack.com/fichiers/2019/37/1/1567994655-photoeditor-20190909-040348985.jpg
  */
 
+Route::get('/fichiers/{a}/{b}/{c}', 'ImageController@fromNoelshack');
+Route::get('/fichiers/{a}/{b}/{c}/{d}', 'ImageController@fromNoelshack');
 Route::get('/{a}/{b}/{c}', 'ImageController@fromNoelshack');
 Route::get('/{a}/{b}/{c}/{d}', 'ImageController@fromNoelshack');
