@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-hero {
+    background: #050710 url('/img/background.png');
+}
+
+@tailwind utilities;
