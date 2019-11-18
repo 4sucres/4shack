@@ -631,10 +631,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.bg-hero {
-  background: #050710 url('/img/background.png');
-}
-
 .sr-only{
   position: absolute;
   width: 1px;
