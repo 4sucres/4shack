@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "02e9033cd181122d62c956b72c8b4c14",
+    "content-hash": "9c16f3df6ad2c9736f64ca9c2097803d",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1260,6 +1260,55 @@
             ],
             "description": "Flysystem adapter for the AWS S3 SDK v3.x",
             "time": "2019-06-05T17:18:29+00:00"
+        },
+        {
+            "name": "molayli/laravel-cloudflare-real-ip",
+            "version": "0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/molayli/laravel-cloudflare-real-ip.git",
+                "reference": "860d4aa5bc41d3e3827ed78345ec0bdef5eb830d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/molayli/laravel-cloudflare-real-ip/zipball/860d4aa5bc41d3e3827ed78345ec0bdef5eb830d",
+                "reference": "860d4aa5bc41d3e3827ed78345ec0bdef5eb830d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Molayli\\CloudflareRealIpServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Molayli\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Billal",
+                    "email": "hello@molayli.com"
+                }
+            ],
+            "description": "Get the real ip for laravel applications behind cloudflare's reverse proxy",
+            "homepage": "https://github.com/molayli/laravel-cloudflare-real-ip",
+            "keywords": [
+                "cloudflare",
+                "laravel",
+                "real ip address"
+            ],
+            "time": "2018-01-19T16:51:42+00:00"
         },
         {
             "name": "monolog/monolog",

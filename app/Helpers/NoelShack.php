@@ -40,6 +40,7 @@ class NoelShack
                 'name' => $fileName,
                 'path' => $fileName,
                 'size' => Storage::size($fileName),
+                'checksum' => md5($content),
             ]);
 
             NoelShackImage::create([
