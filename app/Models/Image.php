@@ -17,6 +17,9 @@ class Image extends Model
         parent::boot();
 
         static::creating(function ($image) {
+            // Check if the checksum is blocked
+            abort_if(Blacklist::hasChecksum($image->checksum), 403);
+
             $image->ip_address = request()->ip();
             $image->user_agent = request()->userAgent();
             return $image;
