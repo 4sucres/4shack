@@ -65,15 +65,19 @@
         <p class="mb-6">Un userscript est disponible pour permettre le remplacement des liens NoelShack, de façon transparente, par leur équivalent 4shack.org.</p>
 
         <p class="mb-6">
-            <a href="https://github.com/4sucres/4shack-userscript/raw/master/4shack.user.js" class="underline" target="_blank">Ajouter le script</a>
-            <a href="https://github.com/4sucres/4shack-userscript" class="underline" target="_blank">Guide d'installation</a>
+            <a href="https://github.com/sucreswave/4shack-userscript/raw/master/4shack.user.js" class="underline" target="_blank">Ajouter le script</a>
+            <a href="https://github.com/sucreswave/4shack-userscript" class="underline" target="_blank">Guide d'installation</a>
         </p>
 
         <h1 class="text-2xl mb-6">À propos de 4shack.org</h1>
 
         <p class="mb-6">
-            4shack.org à été créé par l'équipe de développement de <a href="https://4sucres.org" target="_blank" class="underline">4sucres.org</a>. Le projet est open-source et disponible sur GitHub : <a href="https://github.com/4sucres/4shack" class="underline" target="_blank">github.com/4sucres/4shack</a>.<br>
+            4shack.org à été créé par l'équipe de développement de <a href="https://4sucres.org" target="_blank" class="underline">4sucres.org</a>. Le projet est open-source et disponible sur GitHub : <a href="https://github.com/sucreswave/4shack" class="underline" target="_blank">github.com/sucreswave/4shack</a>.<br>
             Actuellement, {{ $totalCount }} images sont hébergées sur 4shack.org, occupant {{ $totalSize }} d'espace de stockage.
+        </p>
+
+        <p class="mb-6">
+            &copy; SucresWare - 2019
         </p>
     </div>
 </body>
