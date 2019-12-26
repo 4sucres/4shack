@@ -65,8 +65,8 @@
         <p class="mb-6">Un userscript est disponible pour permettre le remplacement des liens NoelShack, de façon transparente, par leur équivalent 4shack.org.</p>
 
         <p class="mb-6">
-            <a href="https://github.com/sucreswave/4shack-userscript/raw/master/4shack.user.js" class="underline" target="_blank">Ajouter le script</a>
-            <a href="https://github.com/sucreswave/4shack-userscript" class="underline" target="_blank">Guide d'installation</a>
+            <a href="https://github.com/sucresware/4shack-userscript/raw/master/4shack.user.js" class="underline" target="_blank">Ajouter le script</a>
+            <a href="https://github.com/sucresware/4shack-userscript" class="underline" target="_blank">Guide d'installation</a>
         </p>
 
         <h1 class="text-2xl mb-6">À propos de 4shack.org</h1>
