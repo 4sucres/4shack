@@ -72,7 +72,7 @@
         <h1 class="text-2xl mb-6">À propos de 4shack.org</h1>
 
         <p class="mb-6">
-            4shack.org à été créé par l'équipe de développement de <a href="https://4sucres.org" target="_blank" class="underline">4sucres.org</a>. Le projet est open-source et disponible sur GitHub : <a href="https://github.com/sucreswave/4shack" class="underline" target="_blank">github.com/sucreswave/4shack</a>.<br>
+            4shack.org à été créé par l'équipe de développement de <a href="https://4sucres.org" target="_blank" class="underline">4sucres.org</a>. Le projet est open-source et disponible sur GitHub : <a href="https://github.com/sucresware/4shack" class="underline" target="_blank">github.com/sucresware/4shack</a>.<br>
             Actuellement, {{ $totalCount }} images sont hébergées sur 4shack.org, occupant {{ $totalSize }} d'espace de stockage.
         </p>
 
