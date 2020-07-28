@@ -77,7 +77,7 @@
         </p>
 
         <p class="mb-6">
-            &copy; SucresWare - 2019
+            &copy; SucresWare - 2019-2020
         </p>
     </div>
 </body>
