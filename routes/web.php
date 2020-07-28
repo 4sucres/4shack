@@ -13,8 +13,6 @@
 
 Route::get('/', 'WelcomeController');
 
-Route::get('/debug/random-files', 'DebugController@randomFiles'); // To be deleted
-
 /**
  * Catch-all routes
  */
